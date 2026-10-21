@@ -25,10 +25,9 @@ A hagyományos ciklusok helyett a havi törlesztőrészletek kiszámítása a te
 
 $$PMT = PV \times \frac{r(1 + r)^n}{(1 + r)^n - 1}$$
 
-* **$PV$**: Hitel összege (`loan_amnt`)
-* **$r$**: Havi kamatláb ($\frac{\text{loan\_int\_rate}}{100 \times 12}$)
-* **$n$**: Futamidő hónapokban ($n = 36$)
-
+- **PV**: Hitel összege (`loan_amnt`)
+- **r**: Havi kamatláb: $\frac{\text{kamatláb}}{100 \times 12}$ (`loan_int_rate`)
+- **n**: Futamidő hónapokban ($n = 36$)
 ---
 
 ## 🛠️ Alkalmazott Technológiák
